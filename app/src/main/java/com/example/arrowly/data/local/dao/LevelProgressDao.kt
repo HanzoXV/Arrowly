@@ -12,7 +12,7 @@ interface LevelProgressDao {
     suspend fun getProgress(levelId: Int): LevelProgressEntity?
 
     @Query("SELECT * FROM level_progress")
-    fun getAllProgress(): Flow<List<LevelProgressEntity>>
+    fun observeAllProgress(): Flow<List<LevelProgressEntity>>
 
     @Upsert
     suspend fun upsert(progress: LevelProgressEntity)
