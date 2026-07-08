@@ -1,0 +1,33 @@
+# Built artifacts & temporary build directories
+/build
+/*/build
+.gradle
+/build-src/build
+.kotlin
+
+# IDE configurations and local settings
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+*.iml
+*.ipr
+*.iws
+
+# Hardware & Machine specific local settings (Crucial to ignore!)
+local.properties
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Android Studio Profiler capturing data
+/captures
+
+# Native compilation artifacts (if you use C/C++ in the future)
+.externalNativeBuild
+.cxx
