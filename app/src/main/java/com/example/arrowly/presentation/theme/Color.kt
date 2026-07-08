@@ -1,4 +1,4 @@
-package com.example.arrowly.ui.theme
+package com.example.arrowly.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
